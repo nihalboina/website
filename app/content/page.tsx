@@ -11,8 +11,8 @@ type Item = {
 const items: Item[] = [
     {
         href: "https://youtube.com/playlist?list=PLyQSN7X0ro23NUN9RYBP5xdBYoiv2_5y2&si=na6ff8Az9jwr1gvz",
-        title: "Ferynman's Lectures (20h10m)",
-        about: "Ferynman's lectures on science, forever timeless",
+        title: "Feynman's Lectures (20h10m)",
+        about: "Feynman's lectures on science, forever timeless",
         highlight: true,
     },
     // red
