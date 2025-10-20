@@ -10,6 +10,18 @@ type Item = {
 
 const items: Item[] = [
     {
+        href: "https://www.youtube.com/watch?v=MnrJzXM7a6o",
+        title: "Jobs introduces iphone (10min19s)",
+        about: "the most iconic moment in tech history",
+        highlight: true,
+    },
+    {
+        href: "https://www.youtube.com/watch?v=mNJyP8f-buo",
+        title: "Kanye Kimmel '2013 interview (24min35s)",
+        about: "true greatness",
+        highlight: true,
+    },
+    {
         href: "https://youtube.com/playlist?list=PLyQSN7X0ro23NUN9RYBP5xdBYoiv2_5y2&si=na6ff8Az9jwr1gvz",
         title: "Feynman's Lectures (20h10m)",
         about: "Feynman's lectures on science, forever timeless",
@@ -19,12 +31,12 @@ const items: Item[] = [
     {
         href: "https://www.youtube.com/watch?v=ycPr5-27vSI",
         title: "Elon (JRE 1169) (2hr37min)",
-        about: "Elon's mind is a force to be reckoned with",
+        about: "elon musk is a genius",
         highlight: false,
     },
     {
         href: "https://www.youtube.com/watch?v=8fOb7ONLzQ0",
-        title: "Jump Out (lil O)",
+        title: "Jump Out by lil O (7min8s)",
         about: "insane levels of creativity and production value",
         highlight: false,
     },
@@ -36,20 +48,20 @@ const items: Item[] = [
     },
     {
         href: "https://youtube.com/playlist?list=PLXBcsPKqNstCyT1lKP9DwiNYbbMyiOLel&si=ZiWFpoWQkX94Cxu9",
-        title: "GTO",
+        title: "GTO (24episodes)",
         about: "one of my fav animes, highly underrated",
         highlight: true,
     },
     {
         href: "https://www.youtube.com/watch?v=8XqNq_oeSMM&list=RD8XqNq_oeSMM",
-        title: "Kendrick Control",
+        title: "Kendrick Control (3min6s)",
         about: "At a time of complacency, Kenny turned up the heat",
         highlight: true,
     },
     {
         href: "https://www.netflix.com/title/81617079",
         title: "Yash Chopra doc (2hr20min)",
-        about: "Yash Chopra's life and career, from his early days to his success as a director",
+        about: "goated director",
         highlight: false,
     },
     // red
@@ -78,13 +90,6 @@ const items: Item[] = [
         href: "https://www.youtube.com/watch?v=WPDAbEVCSTU",
         title: "Two words freestyle (2min6s)",
         about: "Kanye and Mos Def trade verses, early hunger, documentary teaser",
-        highlight: false,
-    },
-    // black
-    {
-        href: "https://www.youtube.com/watch?v=kSos-a1wePg",
-        title: "bari, connor, carti interview (10min55s)",
-        about: "like them, hate them, it's the culture",
         highlight: false,
     },
     // red
