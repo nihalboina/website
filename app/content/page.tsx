@@ -98,7 +98,7 @@ export default function ContentPage() {
             {/* Intro Section */}
             <div className="text-[20px] leading-[1.5em] text-[#888888] tracking-[-0.7px] space-y-4 mb-8">
                 <p>inspired from farza, here is my list of content that I like.</p>
-                <p>i look up to the greats, and i've studied them religiously.</p>
+                <p>i look up to the greats, and i&apos;ve studied them religiously.</p>
                 <p>
                     The pieces of content in <span className="text-red-400">red</span> are ones that deeply affected me, and pieces I return to.
                 </p>

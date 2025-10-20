@@ -28,7 +28,7 @@ export default function Home() {
             {/* Hero */}
             <div className="mb-6">
                 <h1 className="text-[40px] md:text-[48px] font-bold text-[#111111] leading-tight tracking-[-2.1px]">
-                    hi i'm nihal.
+                    hi i&apos;m nihal.
                 </h1>
             </div>
 
@@ -37,7 +37,7 @@ export default function Home() {
                 <p className="font-extrabold">i build products and ship fast. failing in public, optimizing for utility, vibes, and retention.</p>
 
                 <p className="font-extrabold">
-                    right now i'm all-in on{" "}
+                    right now i&apos;m all-in on{" "}
                     <a
                         href="https://systemhealthai.com"
                         target="_blank"
@@ -49,7 +49,7 @@ export default function Home() {
                     — a health companion that changes your life
                 </p>
 
-                <p className="font-extrabold">stuff i've built / shipped:</p>
+                <p className="font-extrabold">stuff i&apos;ve built / shipped:</p>
 
                 <ul className="list-disc pl-6 space-y-3">
                     <li>
@@ -112,7 +112,7 @@ export default function Home() {
                 <p className="font-extrabold">some wins, lots of Ls, constant iteration. i like building simple things that feel inevitable once you use them.</p>
 
                 <p className="text-[#777777] font-extrabold">
-                    i also tinker with ml systems (rag + memory, mission engines, video understanding). wrote papers, shipped infra, and i'm still happiest
+                    i also tinker with ml systems (rag + memory, mission engines, video understanding). wrote papers, shipped infra, and i&apos;m still happiest
                     when the loop is: idea → prototype → users → refactor → ship again.
                 </p>
             </div>
