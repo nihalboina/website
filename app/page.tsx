@@ -3,22 +3,22 @@ import ThemeToggle from "./components/ThemeToggle";
 
 export default function Home() {
     return (
-        <main className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12 max-w-[700px]">
+        <main className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12 max-w-[900px]">
             <ThemeToggle />
             {/* Navigation */}
             <nav className="mb-12">
                 <div className="flex gap-6 text-lg text-[#888888]">
-                    <Link href="/" className="hover:text-cyan-500 transition-colors">
+                    <Link href="/" className="hover:text-[#03FFFF] transition-colors">
                         home
                     </Link>
-                    <Link href="/content" className="hover:text-cyan-500 transition-colors">
+                    <Link href="/content" className="hover:text-[#03FFFF] transition-colors">
                         content
                     </Link>
                     <a
                         href="https://x.com/nihalvsnihal"
                         target="_blank"
                         rel="noopener"
-                        className="hover:text-cyan-500 transition-colors"
+                        className="hover:text-[#03FFFF] transition-colors"
                     >
                         x
                     </a>
@@ -33,16 +33,23 @@ export default function Home() {
             </div>
 
             {/* Bio */}
-            <div className="text-[30px] leading-[1.6em] text-[#555555] tracking-[-0.4px] space-y-5">
-                <p className="font-extrabold">i build products and ship fast. failing in public, optimizing for utility, vibes, and retention.</p>
-
+            <div className="text-[30px] leading-[1.6em] text-[#888888] tracking-[-0.4px] space-y-5">
                 <p className="font-extrabold">
+                    i&apos;m:
+                </p>
+                <div className="font-extrabold !mt-10 ml-8">
+                    failing in public<br />
+                    building & shipping fast<br />
+                    optimizing for utility, vibes, & retention
+                </div>
+
+                <p className="font-extrabold !mt-20">
                     right now i&apos;m all-in on{" "}
                     <a
-                        href="https://systemhealthai.com"
+                        // href="https://systemhealthai.com"
                         target="_blank"
                         rel="noopener"
-                        className="text-cyan-600 hover:underline"
+                        className="text-[#03FFFF] no-underline"
                     >
                         SYSTEM
                     </a>
@@ -54,58 +61,58 @@ export default function Home() {
                 <ul className="list-disc pl-6 space-y-3">
                     <li>
                         <a
-                            href="https://foodgrind.com"
+                            href="https://apps.apple.com/us/app/foodgrind/id1664938134"
                             target="_blank"
                             rel="noopener"
-                            className="text-cyan-600 hover:underline"
+                            className="text-[#F7D41C]"
                         >
-                            FoodGrind
+                            FoodGrind (&apos;23)
                         </a>{" "}
-                        — consumer app that hit #9 trending in Food &amp; Drink (iOS) and 1k daily users at peak.
+                        — CalDining ratings app with 1k daily users
                     </li>
                     <li>
                         <a
-                            href="https://prismclips.com"
+                            href="https://beternal.app"
                             target="_blank"
                             rel="noopener"
-                            className="text-cyan-600 hover:underline"
+                            className="text-[#00FF99]"
                         >
-                            Prism Clips
+                            Beternal (&apos;24)
                         </a>{" "}
-                        — ai editor that finds the viral moments in long-form video and auto-generates clips/titles.
-                    </li>
-                    <li>
-                        <a
-                            href="https://beternal.com"
-                            target="_blank"
-                            rel="noopener"
-                            className="text-cyan-600 hover:underline"
-                        >
-                            Beternal
-                        </a>{" "}
-                        — model-driven sports odds tooling; experiments in signals, features, and event data.
+                        — betting (DFS & book) algorithms, scrapers, & analytics
                     </li>
                     <li>
                         <a
                             href="https://discourseapp.com"
                             target="_blank"
                             rel="noopener"
-                            className="text-cyan-600 hover:underline"
+                            className="bg-gradient-to-r from-[#FF0000] to-[#45A9F5] inline-block text-transparent bg-clip-text no-underline relative after:content-[&apos;&apos;] after:absolute after:left-0 after:bottom-[3px] after:h-[2px] after:w-full after:bg-gradient-to-r after:from-[#FF0000] after:to-[#45A9F5]"
                         >
-                            Discourse
+                            Discourse (&apos;24)
                         </a>{" "}
-                        — real-time debate stages (ivS + flutter), built for crisp, two-sided conversations.
+                        — real-time debates with AI for the 1st amendment
                     </li>
                     <li>
                         <a
-                            href="https://systemhealthai.com"
+                            href="https://prismclips.com"
                             target="_blank"
                             rel="noopener"
-                            className="text-cyan-600 hover:underline"
+                            className="bg-gradient-to-r from-[#383091] to-[#8E97C6] inline-block text-transparent bg-clip-text no-underline relative after:content-[&apos;&apos;] after:absolute after:left-0 after:bottom-[3px] after:h-[2px] after:w-full after:bg-gradient-to-r after:from-[#383091] after:to-[#8E97C6]"
                         >
-                            SYSTEM
+                            Prism Clips (&apos;25)
                         </a>{" "}
-                        — current focus. daily missions, weekly scans, clean radar metrics. consumer first, science-grounded.
+                        — ai editor that finds the viral moments in long-form video and auto-generates clips/titles.
+                    </li>
+                    <li>
+                        <a
+                            // href="https://systemhealthai.com"
+                            target="_blank"
+                            rel="noopener"
+                            className="text-[#03FFFF] no-underline"
+                        >
+                            SYSTEM (&apos;26)
+                        </a>{" "}
+                        — current focus. full AI accountability for your health, that goes away & steps in, when it needs to.
                     </li>
                 </ul>
 
@@ -121,7 +128,7 @@ export default function Home() {
             <div className="mt-10 text-[18px] leading-[1.6em] text-[#777777]">
                 <p>
                     p.s. if you want to build something together or have a crisp ask (&lt;300 chars), email{" "}
-                    <a href="mailto:nihal@berkeley.edu" className="text-cyan-600 hover:underline">
+                    <a href="mailto:nihal@berkeley.edu" className="text-[#03FFFF]">
                         nihal@berkeley.edu
                     </a>
                     . i usually reply.

@@ -9,87 +9,138 @@ type Item = {
 };
 
 const items: Item[] = [
+    {
+        href: "https://youtube.com/playlist?list=PLyQSN7X0ro23NUN9RYBP5xdBYoiv2_5y2&si=na6ff8Az9jwr1gvz",
+        title: "Ferynman's Lectures (20h10m)",
+        about: "Ferynman's lectures on science, forever timeless",
+        highlight: true,
+    },
     // red
     {
-        href: "https://www.youtube.com/watch?v=Om93hASQEjA",
-        title: "Nirvana National Anthem Reading 1992 (2m)",
-        about: "Cobain deconstructs anthem with feedback chaos at Reading festival 1992",
+        href: "https://www.youtube.com/watch?v=ycPr5-27vSI",
+        title: "Elon (JRE 1169) (2hr37min)",
+        about: "Elon's mind is a force to be reckoned with",
+        highlight: false,
+    },
+    {
+        href: "https://www.youtube.com/watch?v=8fOb7ONLzQ0",
+        title: "Jump Out (lil O)",
+        about: "insane levels of creativity and production value",
+        highlight: false,
+    },
+    {
+        href: "https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch",
+        title: "Code Geass",
+        about: "sometimes u might be misunderstood",
+        highlight: false,
+    },
+    {
+        href: "https://youtube.com/playlist?list=PLXBcsPKqNstCyT1lKP9DwiNYbbMyiOLel&si=ZiWFpoWQkX94Cxu9",
+        title: "GTO",
+        about: "one of my fav animes, highly underrated",
+        highlight: true,
+    },
+    {
+        href: "https://www.youtube.com/watch?v=8XqNq_oeSMM&list=RD8XqNq_oeSMM",
+        title: "Kendrick Control",
+        about: "At a time of complacency, Kenny turned up the heat",
+        highlight: true,
+    },
+    {
+        href: "https://www.netflix.com/title/81617079",
+        title: "Yash Chopra doc (2hr20min)",
+        about: "Yash Chopra's life and career, from his early days to his success as a director",
+        highlight: false,
+    },
+    // red
+    {
+        href: "https://www.dailymotion.com/video/x2hjvbg",
+        title: "Nirvana Reading '92 (1hr32min)",
+        about: "the world thought he was dead, but he instead showed up and delivered one of the greatest performances of all time",
         highlight: true,
     },
     // red
     {
         href: "https://www.youtube.com/watch?v=AX4MKIDvXLM",
-        title: "The Fountainhead Roark Courtroom Speech (6m)",
-        about: "Monologue on integrity and creation, rejecting applause and collective compromise",
+        title: "The Fountainhead: Roark Courtroom Speech (6m)",
+        about: "Ayn Rand's masterpiece, a monologue on integrity and creation, rejecting applause and collective compromise",
         highlight: true,
     },
     // red
     {
         href: "https://www.youtube.com/watch?v=4h5eZGj8vcU",
-        title: "Whiplash Final Performance Caravan (9m)",
+        title: "Whiplash: Caravan (9m39s)",
         about: "Drum duel crescendos, control wrestled back, teacher and student collide",
         highlight: true,
     },
     // red
     {
         href: "https://www.youtube.com/watch?v=WPDAbEVCSTU",
-        title: "Jeen Yuhs First Look Clip (1m)",
+        title: "Two words freestyle (2min6s)",
         about: "Kanye and Mos Def trade verses, early hunger, documentary teaser",
-        highlight: true,
+        highlight: false,
     },
     // black
     {
-        href: "https://www.youtube.com/watch?v=Z8vQKA-psOI",
-        title: "Playboi Carti Venting Clip (3m)",
-        about: "Carti speaking candidly on life, energy high, moment feels unfiltered",
+        href: "https://www.youtube.com/watch?v=kSos-a1wePg",
+        title: "bari, connor, carti interview (10min55s)",
+        about: "like them, hate them, it's the culture",
+        highlight: false,
     },
     // red
     {
         href: "https://www.reddit.com/r/Kanye/comments/azf6q0/kanye_performing_runaway_at_the_2010_vma_awards/",
-        title: "Kanye Runaway Live 2010 VMAs (6m)",
-        about: "Red suit stage tableau, sparse keys, ballerinas, public vulnerability crystallized",
+        title: "Kanye Runaway (Live 2010 VMAs) (6m)",
+        about: "This is one of the most iconic moments in music history.",
         highlight: true,
     },
     // black
     {
         href: "https://www.youtube.com/watch?v=uDYwBg67k6g",
-        title: "Kanye Ghost Town SNL Live (4m)",
+        title: "Kanye Ghost Town (SNL Live) (4m)",
         about: "Raw live mix with Cudi, 070 Shake soaring, catharsis lands",
     },
     // black
     {
         href: "https://www.youtube.com/watch?v=3qHkcs3kG44",
-        title: "Naval Ravikant JRE 1309 (2h11m)",
+        title: "Naval Ravikant (JRE 1309) (2h11m)",
         about: "Leverage, judgment, specific knowledge, compounding happiness; timeless mental models discussed",
+        highlight: true,
     },
+    {
+        href: "https://www.youtube.com/watch?v=3wMKoSRbGVs",
+        title: "Douglas Lenat Lex (2hr52min)",
+        about: "AI pioneer Lenat discusses Cyc, knowledge, reasoning; insightful Lex interview",
+        highlight: false,
+    }
 ];
 
 export default function ContentPage() {
     return (
-        <main className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12 max-w-[600px]">
+        <main className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12 max-w-[900px]">
             <ThemeToggle />
             {/* Navigation */}
             <nav className="mb-12">
                 <div className="flex gap-6 text-lg text-[#888888]">
-                    <Link href="/" className="hover:text-cyan-500 transition-colors">
+                    <Link href="/" className="hover:text-[#03FFFF] transition-colors">
                         home
                     </Link>
-                    <Link href="/content" className="hover:text-cyan-500 transition-colors">
+                    <Link href="/content" className="hover:text-[#03FFFF] transition-colors">
                         content
                     </Link>
                     <a
                         href="https://x.com/nihalvsnihal"
                         target="_blank"
                         rel="noopener"
-                        className="hover:text-cyan-500 transition-colors"
+                        className="hover:text-[#03FFFF] transition-colors"
                     >
                         x
                     </a>
                 </div>
             </nav>
 
-            {/* Hero Section - Desktop/Tablet only */}
-            <div className="hidden md:block mb-8">
+            {/* Hero Section */}
+            <div className="mb-8">
                 <h1 className="text-[40px] font-bold text-[#111111] leading-tight tracking-[-2.1px]">
                     content list.
                 </h1>
@@ -97,7 +148,7 @@ export default function ContentPage() {
 
             {/* Intro Section */}
             <div className="text-[20px] leading-[1.5em] text-[#888888] tracking-[-0.7px] space-y-4 mb-8">
-                <p>inspired from farza, here is my list of content that I like.</p>
+                <p>inspired by farza, here&apos;s my list of content that I like.</p>
                 <p>i look up to the greats, and i&apos;ve studied them religiously.</p>
                 <p>
                     The pieces of content in <span className="text-red-400">red</span> are ones that deeply affected me, and pieces I return to.
@@ -112,7 +163,7 @@ export default function ContentPage() {
                             href={it.href}
                             target="_blank"
                             rel="noopener"
-                            className={(it.highlight ? "text-red-400" : "text-[#111111]") + " hover:underline"}
+                            className={(it.highlight ? "text-red-400" : "text-[#111111]") + ""}
                             title={it.about}
                         >
                             {it.title}

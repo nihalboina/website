@@ -66,6 +66,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  a {
+    text-decoration: underline;
+  }
 }
 
 /* Custom dark theme */
@@ -91,7 +94,7 @@
 }
 
 .dark nav a:hover {
-  color: #06b6d4 !important;
+  color: #03FFFF !important;
 }
 
 .dark .text-\[\#555555\] {
